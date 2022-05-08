@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    background-color: #f9f9f9;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+.game {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
+	
+}
+
+button:hover {
+	background-color: #78817a;
+	outline: none;
+}
+#map{
+	background-color: #218838;
+	width:30rem;
+	height:25rem;
+	
+}
+
+.block{
+	width: 25px;
+    height: 25px;
+    float: left;
+
+}
+.B{
+	background-color:brown;
+	opacity: 0.7;
+	
+	 
+}
+.W{
+	width:23px;
+	height:23px; 
+	border: 0.1px solid #13101E;
+	background-color: gray;
+}
+.P{
+	
+	background-image: url("/Stickfigure.png");
+	
+	
+}
+
+.G{
+	background-color:gold;
+	
+	 
+}
